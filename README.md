@@ -65,3 +65,22 @@ La base de données `tifosi` se compose de 9 tables, dont 4 tables de jonction (
   * **Relations Clés:**
       * **One-to-Many (`appartient` / `est constitué`):** Géré par des clés étrangères dans les tables dépendantes (`boisson`, `menu`).
       * **Many-to-Many (`achete`, `paye`, `comprend`, `contient`):** Géré par des tables de jonction avec des clés primaires composites.
+
+-----
+
+## 📸 Capture d'écran de phpMyAdmin
+
+Ne sachant pas ce que je devais faire pour exporter la base de donnée hébergée en local, j'ai fais differentes captures d'écrans :
+
+### Connecté en tant que tifosi
+
+<img width="403" height="232" alt="Screenshot 2025-11-24 144451" src="https://github.com/user-attachments/assets/a8083ddf-f678-4429-a086-0e2fe766d0e9" />
+
+
+### La base de donnée tifosi
+
+<img width="990" height="576" alt="Screenshot 2025-11-24 144014" src="https://github.com/user-attachments/assets/d96751cf-8a2c-4549-ad36-cbb5764279bf" />
+
+### Contenu de la table client
+
+<img width="572" height="218" alt="Screenshot 2025-11-24 144517" src="https://github.com/user-attachments/assets/82d29d4a-0367-4f74-a14f-4689fab8f32d" />
